@@ -1,4 +1,7 @@
 class Stack:
+    # This is a stack data structure implemented using
+    # Python's built in List.
+
     def __init__(self, N):
         self.__N = N
         self.__pointer = 0

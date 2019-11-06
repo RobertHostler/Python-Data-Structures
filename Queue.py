@@ -1,4 +1,7 @@
 class Queue:
+    # This is a queue data structure implemented using
+    # Python's built-in List.
+
     def __init__(self, n):
         self.__N = n
         self.__front_pointer = 0

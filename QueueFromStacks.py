@@ -1,6 +1,10 @@
 from Stacks import Stack
 
-class Queue2():
+class QueueFromStacks():
+    # This is a queue implemented using a stack. This is a
+    # common interview question or puzzle, and I thought I
+    # would attempt it myself.
+
     def __init__(self, N):
         self.N = N
         self.stack1 = Stack(N)
@@ -24,9 +28,7 @@ class Queue2():
             while not self.stack1.isEmpty():
                 temporary = self.stack1.pop()
                 self.stack2.push(temporary)
-
             self.stack1.push(value)
-
             while not self.stack2.isEmpty():
                 temporary = self.stack2.pop()
                 self.stack1.push(temporary)
