@@ -1,4 +1,4 @@
-from SingleLinkedLists import LinkedList
+from .LinkedList import LinkedList
 
 class QueueFromLL():
     # My simple implementation of a queue using a linked
