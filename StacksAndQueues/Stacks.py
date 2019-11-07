@@ -42,3 +42,6 @@ class Stack:
             value = self.__array[self.__pointer]
             self.__array[self.__pointer] = None
             return value
+        
+    def peek(self):
+        return self.__array[self.__pointer - 1]
